@@ -46,7 +46,7 @@ if (__name__ == '__main__'):
 
 
 
-Run Scrip in Maya 2018 ~ 2024 :
+Run Script in Maya Script Editor: 2018 ~ 2024 :
 ```bash
 
 import sys
