@@ -1,21 +1,8 @@
-# Pyside2_Maya
-
-### PyQt5_Maya
-Pyside2 for 2018 ~ 2024 ( Windows & Linux & MAC )
-
-Notice: 
-PyQt does not have the same licensing as Maya, Qt, or Python.
-Please consult the PyQt website for information about licensing for PyQt.
-
-
-
-to this :
-```bash
 import sys
 from PySide2 import QtCore
 from PySide2.QtWidgets import QApplication, QMainWindow ,QLineEdit, QPushButton, QApplication,QVBoxLayout, QDialog
  
-folderPath = "D:../Rana/img"
+folderPath = "D:/tmp/Project_Rana/scripts/Rana/img"
 sys.path.append(folderPath)
 
 from Ui_main import Ui_MainWindow   
@@ -41,43 +28,3 @@ if (__name__ == '__main__'):
     mainWindow.show()
 
     sys.exit(app.exec_())
-
-```
-
-
-
-Run Scrip in Maya 2018 ~ 2024 :
-```bash
-
-import sys
-
-path = r"D:\tmp\Project_Rana\scripts\Rana"
-if not path in sys.path:
-
-	sys.path.append(path)
-
-import GUI
-import importlib
-importlib.reload(GUI)
-        
-fb = GUI.MainWindow()
-fb.show()
-
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>favicon.ico</file>
+  </qresource>
+  <qresource prefix="icon_red">
+    <file>icon_Red.png</file>
+  </qresource>
+  <qresource prefix="face">
+    <file>face.jpg</file>
+  </qresource>
+  <qresource prefix="icon_yelloo">
+    <file>icon_yelloo.png</file>
+  </qresource>
+  <qresource prefix="icon_green">
+    <file>icon_Green.png</file>
+  </qresource>
+</RCC>
