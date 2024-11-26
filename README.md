@@ -65,7 +65,7 @@ fb.show()
 
 ```
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/AbedSHP/Pyside2_Maya/blob/main/Rana/SCN_Rana%20GUI.jpg)
 
 
 
